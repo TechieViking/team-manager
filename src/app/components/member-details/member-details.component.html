@@ -1,0 +1,29 @@
+<div class="cd">
+    <h1 class="mt-4">Member Details</h1>
+    <p class="text-center"></p>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Pictue</th>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Gender</th>
+                <th scope="col">Phone</th>
+                <th scope="col">Role</th>
+                <th scope="col">Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img [src]="member.picture" width="80"></td>
+                <td>{{member.name}} </td>
+                <td>{{member.email}}</td>
+                <td>{{member.gender}}</td>
+                <td>{{member.phone}}</td>
+                <td>{{member.role}}</td>
+                <td>{{member.location}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

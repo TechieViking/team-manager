@@ -1,0 +1,23 @@
+<div class="login-container">
+    <div class="col-5  m-auto">
+        <form [formGroup]="loginForm" (ngSubmit)="formSubmit()">
+            <div class="form-group">
+                <label for="exampleInputEmail1">UserName</label>
+                <input type="text" class="form-control" formControlName="userName" autofocus>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" formControlName="password">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <div *ngIf="error" class="text-danger mt-2">Username or Password is incorrect</div>
+        </form>
+        <p class="mt-2">Are you new here? <a [routerLink]="['/register']">Register</a></p>
+        <p class="alert alert-success mt-5 text-center">Note: Register doesn't mean here email verification. You just
+            need to fill the details and proceed. </p>
+    </div>
+</div>
+<!-- <p class="alert alert-success mt-5 text-center">Hey buddy! Are you feeling lazy to register? Use these credentials:
+    'test' for both
+    fields
+</p> -->

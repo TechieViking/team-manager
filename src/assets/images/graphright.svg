@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="574px" height="303px" viewBox="0 0 574 303" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>GRAPH LEFT Copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1" transform="translate(-815.000000, -183.000000)">
+            <g id="GRAPH-LEFT-Copy" transform="translate(815.000000, 183.000000)">
+                <g id="Rectangle-2">
+                    <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="574" height="303"></rect>
+                    <path d="M18.5,33.5 L562.5,33.5" id="Line" stroke="#F2EEEE" stroke-linecap="square"></path>
+                    <path d="M18.5,67.5 L562.5,67.5" id="Line-Copy-2" stroke="#F2EEEE" stroke-linecap="square"></path>
+                    <path d="M18.5,101.5 L562.5,101.5" id="Line-Copy-3" stroke="#F2EEEE" stroke-linecap="square"></path>
+                    <path d="M18.5,134.5 L562.5,134.5" id="Line-Copy-4" stroke="#F2EEEE" stroke-linecap="square"></path>
+                    <path d="M18.5,168.5 L562.5,168.5" id="Line-Copy-5" stroke="#F2EEEE" stroke-linecap="square"></path>
+                    <path d="M18.5,202.5 L562.5,202.5" id="Line-Copy-6" stroke="#F2EEEE" stroke-linecap="square"></path>
+                    <path d="M18.5,236.5 L562.5,236.5" id="Line-Copy-7" stroke="#F2EEEE" stroke-linecap="square"></path>
+                </g>
+                <g id="GRAPH-BARS" transform="translate(25.000000, 34.000000)" fill="#2464D0" fill-opacity="0.813893138">
+                    <g id="Group">
+                        <path d="M3.5,66 L3.5,66 C5.43299662,66 7,67.5670034 7,69.5 L7,206 L0,206 L0,69.5 C-2.36723813e-16,67.5670034 1.56700338,66 3.5,66 Z" id="Rectangle"></path>
+                        <path d="M81.5,66 L81.5,66 C83.4329966,66 85,67.5670034 85,69.5 L85,203 L78,203 L78,69.5 C78,67.5670034 79.5670034,66 81.5,66 Z" id="Rectangle-Copy-4"></path>
+                        <path d="M159.5,0 L159.5,0 C161.432997,-3.55085719e-16 163,1.56700338 163,3.5 L163,203 L156,203 L156,3.5 C156,1.56700338 157.567003,3.55085719e-16 159.5,0 Z" id="Rectangle-Copy-5"></path>
+                        <path d="M242.5,136 L242.5,136 C244.432997,136 246,137.567003 246,139.5 L246,202 L239,202 L239,139.5 C239,137.567003 240.567003,136 242.5,136 Z" id="Rectangle-Copy-6"></path>
+                        <path d="M320.5,96 L320.5,96 C322.432997,96 324,97.5670034 324,99.5 L324,202 L317,202 L317,99.5 C317,97.5670034 318.567003,96 320.5,96 Z" id="Rectangle-Copy-7"></path>
+                        <path d="M398.5,68 L398.5,68 C400.432997,68 402,69.5670034 402,71.5 L402,202 L395,202 L395,71.5 C395,69.5670034 396.567003,68 398.5,68 Z" id="Rectangle-Copy-8"></path>
+                    </g>
+                </g>
+                <g id="MONTHS" transform="translate(19.000000, 263.000000)" fill="#A09696" font-family="Lato-Bold, Lato" font-size="11" font-weight="bold" letter-spacing="0.4230769">
+                    <text id="JAN">
+                        <tspan x="0" y="11">JAN </tspan>
+                    </text>
+                    <text id="FEB">
+                        <tspan x="78" y="11">FEB </tspan>
+                    </text>
+                    <text id="MAR">
+                        <tspan x="157" y="11">MAR </tspan>
+                    </text>
+                    <text id="APR">
+                        <tspan x="238" y="11">APR </tspan>
+                    </text>
+                    <text id="MAY">
+                        <tspan x="317" y="11">MAY </tspan>
+                    </text>
+                    <text id="JUN">
+                        <tspan x="397" y="11">JUN </tspan>
+                    </text>
+                    <text id="JULY">
+                        <tspan x="476" y="11">JULY </tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,10 @@
+<header class="masthead bg-dark text-white position-fixed w-100">
+    <div class="d-flex">
+        <h3 class="masthead-brand mr-auto p-2 font-weight-light">Team Manager</h3>
+        <nav class="nav nav-masthead justify-content-center align-items-center"
+            *ngIf="isNavShown$ | async as isNavshown">
+
+            <a class="nav-link cursor-pointer" (click)="onLogout()">Logout</a>
+        </nav>
+    </div>
+</header>

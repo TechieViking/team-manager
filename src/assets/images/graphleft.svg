@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="574px" height="303px" viewBox="0 0 574 303" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>GRAPH LEFT</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1" transform="translate(-151.000000, -183.000000)">
+            <g id="GRAPH-LEFT" transform="translate(151.000000, 183.000000)">
+                <g id="Rectangle-2">
+                    <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="574" height="303"></rect>
+                    <path d="M18.5,33.5 L562.5,33.5" id="Line" stroke="#F2EEEE" stroke-linecap="square"></path>
+                    <path d="M18.5,67.5 L562.5,67.5" id="Line-Copy-2" stroke="#F2EEEE" stroke-linecap="square"></path>
+                    <path d="M18.5,101.5 L562.5,101.5" id="Line-Copy-3" stroke="#F2EEEE" stroke-linecap="square"></path>
+                    <path d="M18.5,134.5 L562.5,134.5" id="Line-Copy-4" stroke="#F2EEEE" stroke-linecap="square"></path>
+                    <path d="M18.5,168.5 L562.5,168.5" id="Line-Copy-5" stroke="#F2EEEE" stroke-linecap="square"></path>
+                    <path d="M18.5,202.5 L562.5,202.5" id="Line-Copy-6" stroke="#F2EEEE" stroke-linecap="square"></path>
+                    <path d="M18.5,236.5 L562.5,236.5" id="Line-Copy-7" stroke="#F2EEEE" stroke-linecap="square"></path>
+                </g>
+                <text id="Year:-2019" font-family="Lato-Regular, Lato" font-size="11" font-weight="normal" letter-spacing="0.4230769" fill="#A09696">
+                    <tspan x="27" y="17">Year: 2019</tspan>
+                </text>
+                <path d="M510.875,54 L507.5,60 L502.625,54 L483,54 C481.895431,54 481,53.1045695 481,52 L481,39 C481,37.8954305 481.895431,37 483,37 L530,37 C531.104569,37 532,37.8954305 532,39 L532,52 C532,53.1045695 531.104569,54 530,54 L510.875,54 Z" id="Combined-Shape" fill="#00A11E"></path>
+                <text id="3000" font-family="Lato-Bold, Lato" font-size="11" font-weight="bold" letter-spacing="0.4230769" fill="#FFFFFF">
+                    <tspan x="494" y="50">3000</tspan>
+                </text>
+                <g id="GRAPH-BARS" transform="translate(25.000000, 68.000000)">
+                    <g id="Group">
+                        <path d="M3.5,32 L3.5,32 C5.43299662,32 7,33.5670034 7,35.5 L7,172 L0,172 L0,35.5 C-2.36723813e-16,33.5670034 1.56700338,32 3.5,32 Z" id="Rectangle" fill="#7ED321"></path>
+                        <path d="M81.5,62 L81.5,62 C83.4329966,62 85,63.5670034 85,65.5 L85,169 L78,169 L78,65.5 C78,63.5670034 79.5670034,62 81.5,62 Z" id="Rectangle-Copy-4" fill="#7ED321"></path>
+                        <path d="M159.5,135 L159.5,135 C161.432997,135 163,136.567003 163,138.5 L163,169 L156,169 L156,138.5 C156,136.567003 157.567003,135 159.5,135 Z" id="Rectangle-Copy-5" fill="#7ED321"></path>
+                        <path d="M242.5,32 L242.5,32 C244.432997,32 246,33.5670034 246,35.5 L246,168 L239,168 L239,35.5 C239,33.5670034 240.567003,32 242.5,32 Z" id="Rectangle-Copy-6" fill="#7ED321"></path>
+                        <path d="M320.5,62 L320.5,62 C322.432997,62 324,63.5670034 324,65.5 L324,168 L317,168 L317,65.5 C317,63.5670034 318.567003,62 320.5,62 Z" id="Rectangle-Copy-7" fill="#7ED321"></path>
+                        <path d="M398.5,34 L398.5,34 C400.432997,34 402,35.5670034 402,37.5 L402,168 L395,168 L395,37.5 C395,35.5670034 396.567003,34 398.5,34 Z" id="Rectangle-Copy-8" fill="#7ED321"></path>
+                        <path d="M481.5,0 L481.5,0 C483.432997,-3.55085719e-16 485,1.56700338 485,3.5 L485,168 L478,168 L478,3.5 C478,1.56700338 479.567003,3.55085719e-16 481.5,0 Z" id="Rectangle-Copy-9" fill="#5EA70D"></path>
+                    </g>
+                </g>
+                <g id="MONTHS" transform="translate(19.000000, 263.000000)" fill="#A09696" font-family="Lato-Bold, Lato" font-size="11" font-weight="bold" letter-spacing="0.4230769">
+                    <text id="JAN">
+                        <tspan x="0" y="11">JAN </tspan>
+                    </text>
+                    <text id="FEB">
+                        <tspan x="78" y="11">FEB </tspan>
+                    </text>
+                    <text id="MAR">
+                        <tspan x="157" y="11">MAR </tspan>
+                    </text>
+                    <text id="APR">
+                        <tspan x="238" y="11">APR </tspan>
+                    </text>
+                    <text id="MAY">
+                        <tspan x="317" y="11">MAY </tspan>
+                    </text>
+                    <text id="JUN">
+                        <tspan x="397" y="11">JUN </tspan>
+                    </text>
+                    <text id="JULY">
+                        <tspan x="476" y="11">JULY </tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

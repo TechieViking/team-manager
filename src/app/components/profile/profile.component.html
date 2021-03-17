@@ -1,0 +1,125 @@
+<!-- <div class="d-flex" *ngIf="isLoggedIn$ | async as isLoggedIn"> -->
+<div class="d-flex container-box">
+    <div class="sidebar text-center flex-column align-items-center d-flex pt-3" id="ref1">
+        <div>
+            <img src="../../../assets/images/add-user-to-social-network-svgrepo-com.svg" alt="" width="50"
+                (click)="openModal(newMemberModal)" class="cursor-pointer" title="Add a new member">
+        </div>
+    </div>
+    <div class="w-100 ">
+        <div class="justify-content-between w-100 d-flex p-3">
+            <div>
+                <img src="../../../assets/images/graphleft.svg" alt="" width="650" class="border">
+            </div>
+            <div>
+                <img src="../../../assets/images/graphright.svg" alt="" width="650" class="border">
+            </div>
+        </div>
+        <pb-memebers-list></pb-memebers-list>
+    </div>
+</div>
+<ng-template #newMemberModal let-modal>
+    <div class="modal-header">
+        <h5 class="modal-title" id="editProfileLabel">Add a new member</h5>
+        <button type="button" class="close" (click)="modal.dismiss()" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
+    <div class="modal-body">
+        <form [formGroup]="addMemberForm" (ngSubmit)="onSubmit()">
+            <div class=" form-group row">
+                <label for="firstname" class="col-sm-4 col-form-label">Picture</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" formControlName="picture" id="picture"
+                        placeholder="Picture">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="firstname" class="col-sm-4 col-form-label">Name</label>
+                <div class="col-sm-8">
+                    <input type="text" [class.is-invalid]="userName.invalid && userName.touched" class="form-control"
+                        formControlName="name" id="name" placeholder="Name">
+                    <div *ngIf="userName.invalid && userName.touched">
+                        <small class="text-danger" *ngIf="userName.errors?.required">User Name is
+                            required</small>
+                        <small class="text-danger" *ngIf="userName.errors?.minlength">Minimum 3 characters are
+                            required</small>
+                        <small class="text-danger" *ngIf="userName.errors?.maxlength">That's max character
+                            length</small>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="email" class="col-sm-4 col-form-label">Email</label>
+                <div class="col-sm-8">
+                    <input type="email" [class.is-invalid]="userEmail.invalid && userEmail.touched" class="form-control"
+                        formControlName="email" id="email" placeholder="Email">
+                    <div *ngIf="userEmail.invalid && userEmail.touched">
+                        <small class="text-danger" *ngIf="userName.errors?.required">Email is
+                            required</small>
+
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="email" class="col-sm-4 col-form-label">Gender</label>
+                <div class="col-sm-8">
+                    <input type="text"
+                        [class.is-invalid]="addMemberForm.get('gender').invalid && addMemberForm.get('gender').touched"
+                        class="form-control" formControlName="gender" id="gender" placeholder="Gender">
+                    <div *ngIf="addMemberForm.get('gender').invalid && addMemberForm.get('gender').touched">
+                        <small class="text-danger" *ngIf="userName.errors?.required">Gender is
+                            required</small>
+
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="email" class="col-sm-4 col-form-label">Phone</label>
+                <div class="col-sm-8">
+                    <input type="text"
+                        [class.is-invalid]="addMemberForm.get('phone').invalid && addMemberForm.get('phone').touched"
+                        required pattern="^\d{10}$" class="form-control" formControlName="phone" id="phone"
+                        placeholder="Phone">
+                    <div *ngIf="addMemberForm.get('phone').invalid && addMemberForm.get('phone').touched">
+                        <small class="text-danger" *ngIf="addMemberForm.get('phone').errors.required">Enter the phone
+                            number</small>
+                        <small class="text-danger" *ngIf="addMemberForm.get('phone').errors.pattern">Number is
+                            invalid</small>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="email" class="col-sm-4 col-form-label">Role</label>
+                <div class="col-sm-8">
+                    <input [class.is-invalid]="addMemberForm.get('role').invalid && addMemberForm.get('role').touched"
+                        type="text" class="form-control" formControlName="role" id="role" placeholder="Role">
+                    <div *ngIf="addMemberForm.get('role').invalid && addMemberForm.get('role').touched">
+                        <small class="text-danger" *ngIf="addMemberForm.get('role').errors?.required">Role is
+                            required</small>
+
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="email" class="col-sm-4 col-form-label">Location</label>
+                <div class="col-sm-8">
+                    <input
+                        [class.is-invalid]="addMemberForm.get('location').invalid && addMemberForm.get('location').touched"
+                        type="text" class="form-control" formControlName="location" id="location"
+                        placeholder="Location">
+                    <div *ngIf="addMemberForm.get('location').invalid && addMemberForm.get('location').touched">
+                        <small class="text-danger" *ngIf="addMemberForm.get('location').errors?.required">Location is
+                            required</small>
+
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" (click)="modal.dismiss()">Close</button>
+                <button type="submit" class="btn btn-primary" [disabled]="!addMemberForm.valid">Add</button>
+            </div>
+        </form>
+    </div>
+</ng-template>
